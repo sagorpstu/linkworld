@@ -1,0 +1,402 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: #fafafa;
+}
+
+/* Theme CSS */
+
+.text_color{
+  color: #055160;
+}
+.theme_bg_color{
+  background-color: #055160;
+}
+
+.theme_bg_color:hover{
+  background-color: dodgerblue;
+}
+/*===================== Header Area ====================== */
+
+/* Navigation Menu */
+.navbar .nav-link{
+  color: #fff !important;
+}
+
+.navbar .nav-link:hover{
+  color: #ebd148 !important;
+}
+
+
+.mega-wrapper{
+  position: static;
+}
+
+.mega-menu{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  border: none !important;
+  border-bottom: 3px solid #055160 !important;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.12);
+
+}
+
+.dropdown-item{
+  padding-left: 0;
+  white-space: normal !important;
+  transition: .3s linear;
+}
+
+.dropdown-item:hover{
+  background-color: #ffffff !important;
+  color: dodgerblue;
+  padding-left: 10px;
+}
+
+.navbar .user_profile .dropdown-menu{
+  border: 2px solid #055160;
+}
+
+.navbar .user_profile .user_thumb{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #055160;
+}
+.navbar .user_profile .dropdown-item{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar .user_profile .dropdown-item:hover{
+  color: #fff !important;
+  background-color: #055160 !important;
+}
+
+
+/* =====================Post Area============================ */
+
+.post_section .meta_box, .profile_sec .meta_box{
+  bottom: -15px;
+  left: 0;
+  width: 95%;
+  right: 0;
+  margin: auto;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.12);
+}
+
+.post_section .meta_box .meta_list, .profile_sec .meta_box .meta_list{
+  font-size: 12px;
+  color: #777;
+}
+
+.post_section .meta_box .meta_list a, .profile_sec .meta_box .meta_list a{
+  color: #777;
+}
+
+.post_section .meta_box .meta_list a:hover, .profile_sec .meta_box .meta_list a:hover{
+  color: dodgerblue;
+}
+
+.post_section .meta_box .meta_list i, .profile_sec .meta_box .meta_list i{
+  color: dodgerblue;
+}
+
+.post_section .category a, .profile_sec .category a{
+  font-size: 12px;
+  color: dodgerblue;
+}
+
+.post_section .category a:hover, .profile_sec .category a:hover{
+  color: blue;
+}
+
+.post_section .title h4 a, .profile_sec  .title h4 a{
+  font-size: 20px;
+}
+
+.post_section .tags .badge, .profile_sec .tags .badge {
+  background-color: #e5e6f1;
+  color: #777;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+.post_section .tags .badge:hover, .profile_sec .tags .badge:hover{
+  color: #fff;
+  background-color: dodgerblue;
+}
+
+.post_section .icon-list i, .profile_sec .icon-list i{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  color: #777;
+  cursor: pointer;
+  transform: scale(1);
+  transition: .3s;
+}
+
+.post_section .icon-list i:hover, .profile_sec .icon-list i:hover{
+  transform: scale(1.3);
+}
+
+.post_section .icon-list .fa-heart, .profile_sec .icon-list .fa-heart{
+  background-color: #ff4646;
+  color: #fff;
+  border: 1px solid #ff4646;
+
+}
+
+.post_section .icon-list .fa-comments, .profile_sec .icon-list .fa-comments {
+  background-color:darkcyan;
+  color: #fff;
+  border: 1px solid darkcyan;
+
+}
+
+.post_section .icon-list .fa-instagram, .profile_sec .icon-list .fa-instagram{
+  background-color:orangered;
+  color: #fff;
+  border: 1px solid orangered;
+
+}
+
+.post_section .icon-list .fa-linkedin-in, .profile_sec .icon-list .fa-linkedin-in{
+  background-color:darkcyan;
+  color: #fff;
+  border: 1px solid darkcyan;
+
+}
+
+.post_section .icon-list .fa-twitter, .profile_sec .icon-list .fa-twitter{
+  background-color: dodgerblue;
+  color: #fff;
+  border: 1px solid dodgerblue;
+
+}
+
+.post_section .icon-list .fa-facebook-f, .profile_sec .icon-list .fa-facebook-f{
+  background-color: #3F51B5;
+  color: #fff;
+  border: 1px solid #3F51B5;
+
+}
+
+/* Footer Area */
+
+.footer_top{
+  background-color: #055160;
+  padding-top: 10px;
+
+}
+
+.footer_bottom{
+  padding: 10px 0px;
+  background-color: #091b29;
+}
+.footer_bottom a{
+  font-weight: 700;
+}
+.footer_bottom a:hover{
+  color: #ebd148 !important;
+}
+
+.footer-link .nav-link{
+  color: #ffffff !important;
+  font-size: 14px;
+}
+.footer-link .nav-link:hover{
+  color: #ebd148 !important;
+}
+
+.footer-link .social_icon a{
+  margin-right: 5px;
+}
+
+.footer-link .social_icon a i{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ line-height: 40px;
+ font-size: 18px;
+ text-align: center;
+ color: #fff;
+ background-color: rgba(0,0,0,0.3);
+ transition: .3s ease-in;
+}
+
+.footer-link .social_icon a i:hover{
+  color: #055160;
+  background-color: #fff;
+}
+
+/* LOGIN & REGISTRATION PAGE */
+
+.form-footer span, .form-footer a{
+  font-size: 13px;
+}
+
+/* CSS FOR STORY PAGE */
+
+.story_sec .main_story .story_meta .date {
+  color: #055160;
+}
+
+.story_sec .main_story .story_meta .meta_list a{
+  color: #055160;
+}
+
+.story_sec .main_story .story_meta .meta_list a:hover{
+  color: dodgerblue !important;
+}
+
+.story_sec .main_story .story_body .story_btn{
+  background-color: #055160;
+  color: #fff;
+}
+
+.story_sec .main_story .story_body .story_btn:hover{
+  background-color: dodgerblue;
+}
+.story_sec .main_story .story_body .story_tags a{
+  font-weight: 400;
+  color: #fff !important;
+
+}
+.story_sec .main_story .story_body .story_tags a:hover{
+  background-color: #055160 !important;
+}
+
+.story_sec .main_story .story_body .share_icon i{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  transition: .3s;
+}
+
+.story_sec .main_story .story_body .share_icon i:hover{
+  background-color: #055160 !important;
+}
+
+.story_sec .story_comments .comment-img img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #055160;
+}
+
+.story_sec .related-post img{
+  filter: brightness(45%);
+}
+
+.story_sec .related-post .related-post-title{
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+.story_sec .related-post .related-post-title h5 a{
+  color: #fff;
+  font-size: 16px;
+  transition: .3s;
+}
+.story_sec .related-post .related-post-title h5 a:hover{
+  color: #ebd148;
+}
+
+
+/* ===============CSS for Profile Page ================== */
+
+.profile_sec .profile_photo{
+  width: 120px;
+  width: 120px;
+  border-radius: 4px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border: 4px solid #055160;
+}
+
+.profile_sec .social_link i{
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height:40px;
+  border-radius: 50%;
+  background-color: #055160;
+  color: #fff;
+}
+
+.profile_sec .social_link .fa-facebook-f:hover{
+  background-color: #3F51B5;
+}
+
+.profile_sec .social_link .fa-twitter:hover{
+  background-color: dodgerblue;
+}
+
+.profile_sec .social_link .fa-youtube:hover{
+  background-color: #ff4646;
+}
+
+.profile_sec .social_link .fa-linkedin-in:hover{
+  background-color: #3F51B5;
+}
+
+.profile_sec .social_link .fa-globe-americas:hover{
+  background-color: orangered;
+}
+
+.profile_sec .profile_edit_btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff !important;
+  background-color: #055160;
+}
+
+.profile_sec .profile_edit_btn:hover{
+  background-color: dodgerblue;
+}
+
+
+/* CSS For Edited Profile Modal */
+
+.profile_sec .edited_photo{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #055160;
+}
+
+
+/* ==============Media Query=================== */
+
+/* For Mobile Device */
+
+@media(max-width:991px){
+  .navbar .mega-menu{
+    position: absolute !important;
+
+  }
+  .navbar .user_profile .dropdown-menu{
+    position: absolute !important;
+    max-width: 250px !important;
+  }
+}
+@media(max-width:380px){
+  .post_section .meta_list, .profile_sec .meta_list{
+    margin-right: 4px !important;
+  }
+}
